@@ -1,7 +1,7 @@
 import { Group, Button, Title } from "@mantine/core";
 
 import navigation from "../data/navigation";
-
+// hello
 function Navbar() {
   return (
     <Group justify="space-between" p="lg">
