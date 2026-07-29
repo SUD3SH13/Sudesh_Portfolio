@@ -14,10 +14,16 @@ function Navbar() {
           <Button
             key={item.id}
             variant="subtle"
+            href={item.href}
+            component="a"
           >
             {item.label}
           </Button>
         ))}
+
+          <Button size="sm" component="a" href="/GameDev-resume.pdf" download>
+            Download Resume
+          </Button>
 
       </Group>
 

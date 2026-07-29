@@ -23,15 +23,18 @@ function Hero() {
         </Text>
 
         <Group mt="md">
-          <Button size="md">
+          <Button size="md" component="a" href="#projects">
             View Projects
           </Button>
 
           <Button
             variant="outline"
             size="md"
+            href="/GameDev-resume.pdf"
+            target="_blank"
+            component="a"
           >
-            Download Resume
+            View Resume
           </Button>
         </Group>
 

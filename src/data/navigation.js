@@ -1,23 +1,24 @@
 const navigation = [
   {
     id: 1,
-    label: "Home",
+    label: "About",
+    href:"#about",
   },
   {
     id: 2,
-    label: "About",
+    label: "Skills",
+    href:"#skills",
   },
   {
     id: 3,
     label: "Projects",
+    href:"#projects",
   },
+
   {
     id: 4,
-    label: "Skills",
-  },
-  {
-    id: 5,
     label: "Contact",
+    href:"#contact",
   },
 ];
 

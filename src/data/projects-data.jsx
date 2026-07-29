@@ -55,7 +55,7 @@ const projectsData = [
     ),
     github: "...",
     itch: "https://sud3sh.itch.io/scrapshot",
-    youtube:"",
+    youtube:"https://youtu.be/6V4FyrsUfmU",
   },
   {
     title: "Carnival Spin",
@@ -102,7 +102,7 @@ const projectsData = [
       ),
     github: "...",
     itch:"",
-    youtube:"",
+    youtube:"https://youtu.be/63waVvT1Fkg",
   },
 ];
 

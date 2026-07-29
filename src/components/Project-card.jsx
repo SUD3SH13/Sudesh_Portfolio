@@ -1,4 +1,4 @@
-import { Container, Card,Image,Tabs, Title,Text,Group} from "@mantine/core";
+import { Container, Card,Image,Tabs, Title,Text,Group,Stack} from "@mantine/core";
 // import demoVideo from "../assets/videos/ScapshotGameplayDemo.mp4";
 
 function ProjectCard({video, overview,techStack,details,itch,youtube}){
@@ -44,10 +44,23 @@ function ProjectCard({video, overview,techStack,details,itch,youtube}){
                         </Tabs.Panel>
                         <Tabs.Panel value="links">
                             <Container py="10px">
-                                <Group gap="xs">
-                                    <Text>Play the game on</Text><a href={itch}>Itch</a>
+                                <Stack>
+                                    <Text fw={700}>
+                                        Project Links
+                                    </Text>
+                                    <Text >
+                                        Everything you need to experience and explore the project.
+                                    </Text>
 
-                                </Group>
+                                    <Group gap="xs">
+                                    <Text>Play the game on Itch.io: </Text><a href={itch}>{itch}</a>
+                                    </Group>
+                                    <Group gap="xs">
+                                    <Text>Watch the gameplay on Youtube: </Text><a href={youtube}>{youtube}</a>
+                                    </Group>
+
+                                </Stack>
+
                                 
 
                             </Container>
