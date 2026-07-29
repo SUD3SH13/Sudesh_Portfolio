@@ -2,7 +2,7 @@ import { Button, Group, Stack, Text, Title, Container } from "@mantine/core";
 
 function Hero() {
   return (
-    <Container size="lg" py={100}>
+    <Container id ="home" fluid size="lg" py={100} px={{base:25, md:50}}>
 
       <Stack gap="md">
 

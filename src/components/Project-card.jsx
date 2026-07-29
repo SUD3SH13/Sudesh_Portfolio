@@ -1,4 +1,6 @@
 import { Container, Card,Image,Tabs, Title,Text,Group,Stack} from "@mantine/core";
+import { IconDotsVertical } from "@tabler/icons-react";
+import { base } from "framer-motion/client";
 // import demoVideo from "../assets/videos/ScapshotGameplayDemo.mp4";
 
 function ProjectCard({video, overview,techStack,details,itch,youtube}){
@@ -16,8 +18,8 @@ function ProjectCard({video, overview,techStack,details,itch,youtube}){
                     />
                 </Card.Section>
                 <Card.Section>
-                    <Tabs defaultValue="overview" variant="outline" >
-                        <Tabs.List>
+                    <Tabs defaultValue="overview" variant="outline">
+                        <Tabs.List style={{ overflowX: "auto", flexWrap: "nowrap" }}>
                             <Tabs.Tab value="overview">
                                 Overview
                             </Tabs.Tab>

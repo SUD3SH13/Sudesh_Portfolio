@@ -1,9 +1,19 @@
-import { Group, Button, Title } from "@mantine/core";
+import { Group, Button, Title, Container } from "@mantine/core";
 
 import navigation from "../data/navigation";
-// hello
+
 function Navbar() {
   return (
+    <Container fluid  style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100%",
+        zIndex: 1000,
+        background: "rgba(13, 17, 23, 0.8)",
+        backdropFilter: "blur(12px)",
+        borderBottom: "0px solid rgba(255,255,255,0.08)",
+      }}>
     <Group justify="space-between" p="lg">
 
       <Title order={2}>Sudesh Gadi</Title>
@@ -28,6 +38,7 @@ function Navbar() {
       </Group>
 
     </Group>
+    </Container>
   );
 }
 
