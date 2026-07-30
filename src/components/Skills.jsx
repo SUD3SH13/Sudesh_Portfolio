@@ -3,7 +3,7 @@ import { Badge, Group, Stack, Title, Container} from "@mantine/core";
 
 function Skills() {
   return (
-    <Container fluid  py={100} id="skills" px={{base:25, md:50}}>
+    <Container fluid  pt={100} id="skills" px={{base:25, md:50}}>
         <Title pb={25}>
             Technical Skills
         </Title>

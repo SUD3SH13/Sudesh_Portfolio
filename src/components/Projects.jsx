@@ -5,7 +5,7 @@ import { Stack,Title,Container,Tabs } from "@mantine/core";
 function Projects(){
 
     return (
-        <Container fluid  py={100} id="projects" px={{base:25, md:50}}>
+        <Container fluid  pt={100} id="projects" px={{base:25, md:50}}>
             <Title pb={25}>
                 Projects
             </Title>

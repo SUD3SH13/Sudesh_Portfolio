@@ -2,7 +2,7 @@
 
   function About() {
     return (
-      <Container w="100%" fluid  py={100} id="about" px={{base:25, md:50}}>
+      <Container w="100%" fluid  pt={100} id="about" px={{base:25, md:50}}>
 
         <Grid align="center">
 
