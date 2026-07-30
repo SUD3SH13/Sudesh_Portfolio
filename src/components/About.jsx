@@ -2,7 +2,7 @@
 
   function About() {
     return (
-      <Container  fluid  py={100} id="about" px={{base:25, md:50}}>
+      <Container w="100%" fluid  py={100} id="about" px={{base:25, md:50}}>
 
         <Grid align="center">
 
@@ -12,7 +12,7 @@
             </Title>
 
             <Text mt="lg" c="dimmed">
-              I'm a Computer Science student with a passion for gameplay programming,
+              I'm a Computer Science Graduate with a passion for gameplay programming,
               AI systems, and interactive experiences. I enjoy designing mechanics,
               implementing enemy behaviour, and building polished gameplay systems in Unity.
             </Text>
