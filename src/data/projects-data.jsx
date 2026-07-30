@@ -101,7 +101,7 @@ const projectsData = [
       </Container>
       ),
     github: "...",
-    itch:"",
+    itch:"https://sud3sh.itch.io/carnivalspin",
     youtube:"https://youtu.be/63waVvT1Fkg",
   },
 ];

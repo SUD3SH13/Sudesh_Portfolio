@@ -1,4 +1,5 @@
-import { Group, Button, Title, Container } from "@mantine/core";
+import { Group, Button, Title, Container,Image,Text } from "@mantine/core";
+import iconDownload from "../assets/images/icon-download.png"
 
 import navigation from "../data/navigation";
 
@@ -18,7 +19,7 @@ function Navbar() {
 
       <Title order={2}>Sudesh Gadi</Title>
 
-      <Group>
+      <Group >
 
         {navigation.map((item) => (
           <Button
@@ -26,13 +27,56 @@ function Navbar() {
             variant="subtle"
             href={item.href}
             component="a"
+            // size={{base: "xs", md:"sm"}}
+            size="sm"
+            // leftSection={ <Image src={item.icon} fit="contain" w={16} h={16}/>}
+             px={{ base: 6, md: 12 }}
+            //  w={{ base: 30, md: "auto" }}
           >
-            {item.label}
+            <Group gap="xs">
+              <Image
+                src={item.icon}
+                fit="contain"
+                w={16}
+                h={16}
+                // hiddenFrom="md"
+              />
+            <Text
+              span
+              visibleFrom="md"
+            >
+              {item.label}
+            </Text>
+            </Group>
           </Button>
         ))}
 
-          <Button size="sm" component="a" href="/GameDev-resume.pdf" download>
-            Download Resume
+          <Button 
+          size="sm" 
+          component="a" 
+          href="/GameDev-resume.pdf" 
+          download 
+          // rightSection={ <Image src={iconDownload} fit="contain" w={16} h={16}/>} 
+          // w={{ base: 30, md: "auto" }}
+          px={{base:4, md: 12}}
+          >
+            <Group gap="xs">
+
+            <Text
+              span
+              visibleFrom="md"
+            >
+              Download Resume
+            </Text>
+
+            <Image
+                src={iconDownload}
+                fit="contain"
+                w={16}
+                h={16}
+                // hiddenFrom="md"
+              />
+            </Group>
           </Button>
 
       </Group>
