@@ -4,7 +4,9 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 // import ProjectCard from "./components/Project-card";
-import Projects from "./components/Projects"
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 function App() {
 
   const aboutRef = useRef(null);
@@ -21,6 +23,12 @@ function App() {
       </section>
       <section id="projects">
         <Projects />
+      </section>
+      <section id="contact">
+        <Contact/>
+      </section>
+      <section>
+        <Footer/>
       </section>
     </>
   );
