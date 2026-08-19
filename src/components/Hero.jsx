@@ -19,7 +19,7 @@ function Hero() {
         </Title>
 
         <Text maw={600}>
-          Computer Science Graduate passionate about gameplay programming, enemy AI, and creating immersive gaming experiences using Unity and C#.
+          Computer Science Graduate focused on building gameplay systems, interactive systems, and immersive mechanics using Unity and C#. Passionate about designing robust systems that bring engaging game experiences to life.
         </Text>
 
         <Group mt="md">

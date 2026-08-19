@@ -12,14 +12,12 @@
             </Title>
 
             <Text mt="lg" c="dimmed">
-              I'm a Computer Science Graduate with a passion for gameplay programming,
-              AI systems, and interactive experiences. I enjoy designing mechanics,
-              implementing enemy behaviour, and building polished gameplay systems in Unity.
+              I'm a Computer Science Graduate passionate about gameplay programming, 
+              AI systems, and interactive experiences. I enjoy designing mechanics, building robust gameplay systems, and creating engaging experiences in Unity.
             </Text>
 
             <Text mt="md" c="dimmed">
-              Alongside game development, I've worked with React during my frontend internship,
-              giving me experience building responsive web applications as well.
+              Beyond game development, I've worked on computer vision projects involving AI and image processing, including research that led to a published research paper. I also have experience with React from my frontend internship, where I worked on building responsive web applications.
             </Text>
           </Grid.Col>
 

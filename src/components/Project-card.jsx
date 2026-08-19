@@ -5,7 +5,7 @@ import { base } from "framer-motion/client";
 
 function ProjectCard({video, overview,techStack,details,itch,youtube}){
     return(
-        <Container>
+        <Container size="sm">
             <Card shadow="lg" bg="#2D2D2D" border="#3B3B3B" withBorder>
                 <Card.Section>
                     <video

@@ -1,5 +1,7 @@
 import scrapshotVideo from "../assets/videos/ScrapshotGameplayDemo.mp4";
 import carnivalVideo from "../assets/videos/CarnivalSpinDemo.mp4";
+import upgradeVideo from "../assets/videos/UpgradeLoopDemo.mp4";
+import autonomousVideo from "../assets/videos/AutonomousVehicleDemo.mp4";
 import { Container,Text,List, Stack, Group } from "@mantine/core";
 
 
@@ -58,8 +60,102 @@ const projectsData = [
     youtube:"https://youtu.be/6V4FyrsUfmU",
   },
   {
+    title: "Upgrade Loop (In Development)",
+    video: upgradeVideo,
+    overview:
+        (
+      <Container py="10px">
+        <Stack>
+        <Text>
+            CarnivalSpin is 2D physics-based arcade game built in Unity where players control a giant carnival wheel rolling through the environment.  
+        </Text>
+        <Text>
+            The game is built around maintaining momentum through physics-driven movement while overcoming randomly generated obstacles to beat your high score. The project explores how realistic physics and player movement can be combined to create an engaging, fast-paced gameplay experience.
+        </Text>
+        </Stack>
+
+      </Container>
+    ),
+    details:"",
+    techStack:
+      (
+      <Container py="10px">
+        <Stack>
+        <Group gap="xs">
+        <Text span fw={700}>Engine:</Text>
+        <Text span>Unity</Text>
+        </Group>
+        <Group gap="xs">
+        <Text span fw={700}>Language:</Text>
+        <Text span>C#</Text>
+        </Group>
+        <Group gap="xs">
+        <Text span fw={700}>Systems:</Text>
+        <Text span>Physics-based Movement, Object Pooling, Procedural Chunk Generation</Text>
+        </Group>
+        <Group gap="xs">
+        <Text span fw={700}>Focus:</Text>
+        <Text span>Physics systems, New Input System, Object Pooling </Text>
+        </Group>
+
+        </Stack>
+
+      </Container>
+      ),
+    github: "...",
+    itch:"https://sud3sh.itch.io/carnivalspin",
+    youtube:"https://youtu.be/63waVvT1Fkg",
+  },
+  {
     title: "Carnival Spin",
     video: carnivalVideo,
+    overview:
+        (
+      <Container py="10px">
+        <Stack>
+        <Text>
+            CarnivalSpin is 2D physics-based arcade game built in Unity where players control a giant carnival wheel rolling through the environment.  
+        </Text>
+        <Text>
+            The game is built around maintaining momentum through physics-driven movement while overcoming randomly generated obstacles to beat your high score. The project explores how realistic physics and player movement can be combined to create an engaging, fast-paced gameplay experience.
+        </Text>
+        </Stack>
+
+      </Container>
+    ),
+    details:"",
+    techStack:
+      (
+      <Container py="10px">
+        <Stack>
+        <Group gap="xs">
+        <Text span fw={700}>Engine:</Text>
+        <Text span>Unity</Text>
+        </Group>
+        <Group gap="xs">
+        <Text span fw={700}>Language:</Text>
+        <Text span>C#</Text>
+        </Group>
+        <Group gap="xs">
+        <Text span fw={700}>Systems:</Text>
+        <Text span>Physics-based Movement, Object Pooling, Procedural Chunk Generation</Text>
+        </Group>
+        <Group gap="xs">
+        <Text span fw={700}>Focus:</Text>
+        <Text span>Physics systems, New Input System, Object Pooling </Text>
+        </Group>
+
+        </Stack>
+
+      </Container>
+      ),
+    github: "...",
+    itch:"https://sud3sh.itch.io/carnivalspin",
+    youtube:"https://youtu.be/63waVvT1Fkg",
+  },
+  {
+    title: "AI-Powered Autonomous Vehicle",
+    video: autonomousVideo,
     overview:
         (
       <Container py="10px">
