@@ -1,5 +1,5 @@
 
-import { Box, Container, Group, Text } from "@mantine/core";
+import { Box, Container, Group, Text, Stack} from "@mantine/core";
 
 function Footer() {
   return (
@@ -10,10 +10,12 @@ function Footer() {
         color: "white",
         borderTop: "1px solid #252a32",
       }}
+      fluid
+      width="100%"
     >
       <Container size="lg">
-        <Group justify="space-between" align="center">
-          <Box>
+        <Group justify="space-between" align="center" >
+          <Stack>
             <Text fw={600} size="lg">
               Sudesh Gadi
             </Text>
@@ -21,7 +23,7 @@ function Footer() {
             <Text size="sm" c="dimmed">
               Gameplay Programmer | Unity Developer
             </Text>
-          </Box>
+          </Stack>
 
           <Text size="sm" c="dimmed">
             © {new Date().getFullYear()} Sudesh Gadi

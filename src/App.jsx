@@ -27,9 +27,9 @@ function App() {
       <section id="contact">
         <Contact/>
       </section>
-      <section>
+      
         <Footer/>
-      </section>
+      
     </>
   );
 }

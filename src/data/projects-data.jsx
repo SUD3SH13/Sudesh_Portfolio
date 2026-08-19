@@ -67,7 +67,7 @@ const projectsData = [
       <Container py="10px">
         <Stack>
         <Text>
-            CarnivalSpin is 2D physics-based arcade game built in Unity where players control a giant carnival wheel rolling through the environment.  
+            Upgrade Loop is a 3D shooter survival game where you get coins by killing robots and use those coins to upgrade your weapons and skills.  
         </Text>
         <Text>
             The game is built around maintaining momentum through physics-driven movement while overcoming randomly generated obstacles to beat your high score. The project explores how realistic physics and player movement can be combined to create an engaging, fast-paced gameplay experience.
