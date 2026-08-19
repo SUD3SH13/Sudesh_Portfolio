@@ -73,7 +73,7 @@ function Contact() {
             </Anchor>
 
             <Anchor
-              href="https://www.linkedin.com/in/sudesh-gadi"
+              href="https://www.linkedin.com/in/sudesh-gadi-3b6768316/"
               target="_blank"
               c="White"
               underline="never"
