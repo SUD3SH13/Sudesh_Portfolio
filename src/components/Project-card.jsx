@@ -3,7 +3,7 @@ import { IconDotsVertical } from "@tabler/icons-react";
 import { base } from "framer-motion/client";
 // import demoVideo from "../assets/videos/ScapshotGameplayDemo.mp4";
 
-function ProjectCard({video, overview,techStack,details,itch,youtube}){
+function ProjectCard({video, overview,techStack,details,links}){
     return(
         <Container size="md">
             <Card shadow="lg" bg="#2D2D2D" border="#3B3B3B" withBorder>
@@ -45,27 +45,8 @@ function ProjectCard({video, overview,techStack,details,itch,youtube}){
                             {details}
                         </Tabs.Panel>
                         <Tabs.Panel value="links">
-                            <Container py="10px">
-                                <Stack>
-                                    <Text fw={700}>
-                                        Project Links
-                                    </Text>
-                                    <Text >
-                                        Everything you need to experience and explore the project.
-                                    </Text>
 
-                                    <Group gap="xs">
-                                    <Text>Play the game on Itch.io: </Text><a href={itch}>{itch}</a>
-                                    </Group>
-                                    <Group gap="xs">
-                                    <Text>Watch the gameplay on Youtube: </Text><a href={youtube}>{youtube}</a>
-                                    </Group>
-
-                                </Stack>
-
-                                
-
-                            </Container>
+                            {links}
                             
                         </Tabs.Panel>
 

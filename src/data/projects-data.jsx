@@ -149,9 +149,31 @@ const projectsData = [
 
       </Container>
       ),
-    github: "...",
-    itch:"https://sud3sh.itch.io/carnivalspin",
-    youtube:"https://youtu.be/63waVvT1Fkg",
+    links:
+      (
+        <Container py="10px">
+          <Stack>
+              <Text fw={700}>
+                  Project Links
+              </Text>
+              <Text >
+                  Everything you need to experience and explore the project.
+              </Text>
+
+              <Group gap="xs">
+              <Text>Play the game on Itch.io: </Text><a href="https://sud3sh.itch.io/carnivalspin">https://sud3sh.itch.io/carnivalspin</a>
+              </Group>
+              <Group gap="xs">
+              <Text>Watch the gameplay on Youtube: </Text><a href="https://youtu.be/63waVvT1Fkg">https://youtu.be/63waVvT1Fkg</a>
+              </Group>
+
+          </Stack>
+
+          
+
+        </Container>
+
+      ),
   },
   {
     title: "AI-Powered Autonomous Vehicle",
@@ -175,31 +197,52 @@ const projectsData = [
       (
       <Container py="10px">
         <Stack>
-          <Group gap="xs">
-            <Text span fw={700}>Hardware:</Text>
-            <Text span>Raspberry Pi, Arduino, Ultrasonic Sensors, Camera</Text>
-          </Group>
+        <Group gap="xs">
+        <Text span fw={700}>Hardware:</Text>
+        <Text span>Raspberri Pi, Webcam, Arduino, Sensors, Motors</Text>
+        </Group>
+        <Group gap="xs">
+        <Text span fw={700}>Language:</Text>
+        <Text span>Python, C, HTML, CSS</Text>
+        </Group>
+        <Group gap="xs">
+        <Text span fw={700}>Systems:</Text>
+        <Text span>OpenCV, Realtime Detection</Text>
+        </Group>
+        {/* <Group gap="xs">
+        <Text span fw={700}>Focus:</Text>
+        <Text span>Physics systems, New Input System, Object Pooling </Text>
+        </Group> */}
 
-          <Group gap="xs">
-            <Text span fw={700}>AI / Vision:</Text>
-            <Text span>YOLOv11, OpenCV, Computer Vision</Text>
-          </Group>
-
-          <Group gap="xs">
-            <Text span fw={700}>Navigation:</Text>
-            <Text span>GPS, Indoor Mapping, Obstacle Avoidance</Text>
-          </Group>
-
-          <Group gap="xs">
-            <Text span fw={700}>Communication:</Text>
-            <Text span>Python, Socket Streaming</Text>
-          </Group>
         </Stack>
+
       </Container>
       ),
-    github: "...",
-    itch:"https://sud3sh.itch.io/carnivalspin",
-    youtube:"https://youtu.be/63waVvT1Fkg",
+    links:
+    (
+    <Container py="10px">
+      <Stack>
+          <Text fw={700}>
+              Project Links
+          </Text>
+          <Text >
+              Dive deeper into the research behind the project and see it in action.
+          </Text>
+
+          <Group gap="xs">
+          <Text>Read the IEEE Research Paper: </Text><a href="https://ieeexplore.ieee.org/document/11306777">https://ieeexplore.ieee.org/document/11306777</a>
+          </Group>
+          <Group gap="xs">
+          <Text>Watch the Project Demo on Youtube: </Text><a href="https://youtu.be/5PWTUiOcbbU">https://youtu.be/5PWTUiOcbbU</a>
+          </Group>
+
+      </Stack>
+
+      
+
+    </Container>
+
+    ),
   },
 ];
 
